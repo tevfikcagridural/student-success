@@ -1,0 +1,8 @@
+docs/site/
+
+# OSX Junk
+.DS_Store
+
+# CSV files
+# They exceed the GitHub's 100MB limit so zip file will be added only
+data/raw/*.csv
