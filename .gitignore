@@ -1,4 +1,5 @@
 docs/site/
+.ipynb_checkpoints/
 
 # OSX Junk
 .DS_Store
