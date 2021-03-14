@@ -12,7 +12,7 @@ The modelling response has four different subjects 'Distinction', 'Pass', 'Fail'
 
 On [exploratory data analysis](./jupyter_notebooks/2_Exploratory_Data_Analysis.ipynb), some students have the same mean scores, but end with different final results showed that the scores are not the only determiner for the final result. Besides, some students had one as their first score but ended up with distinction. Also, the mean score spread shows that there is a huge overlap of withdrawn and pass. These two are big signs for staying on track can easily lead to success.
 
-Format: ![Average Score Distribution](./readme_files/fig3_mean_scores.png)
+![Average Score Distribution](./readme_files/fig3_mean_scores.png)
 
 Statistical tests show that the region, age or [indices of multiple deprivations](https://en.wikipedia.org/wiki/Multiple_deprivation_index) does not affect the final result and feature importances will confirm.
 
