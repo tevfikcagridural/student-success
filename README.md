@@ -4,7 +4,7 @@ This work is an analysis of the student's success in an online learning environm
 
 The data is Open University Learning Analytics Dataset. Kuzilek, J., Hlosta, M., & Zdrahal, Z. [https://doi.org/10.6084/m9.figshare.5081998.v1](https://doi.org/10.6084/m9.figshare.5081998.v1) (2017). It consists of seven courses for two semesters of 2013 and 2014. Raw data is a set of seven tables.
 
-![Data Model (https://analyse.kmi.open.ac.uk/open_dataset)](./readme_files/fig1_data_model.png) 
+Format: ![Data Model (https://analyse.kmi.open.ac.uk/open_dataset)](./readme_files/fig1_data_model.png) 
 
 The modelling response has four different subjects 'Distinction', 'Pass', 'Fail' and 'Withdrawn'. For that reason, the approach is a multi-class supervised classification. Since the distinction has much fewer members, it causes the data to be imbalanced and caused the problem to be more challenging for the model.
 
@@ -12,7 +12,7 @@ The modelling response has four different subjects 'Distinction', 'Pass', 'Fail'
 
 On [exploratory data analysis](./jupyter_notebooks/2_Exploratory_Data_Analysis.ipynb), some students have the same mean scores, but end with different final results showed that the scores are not the only determiner for the final result. Besides, some students had one as their first score but ended up with distinction. Also, the mean score spread shows that there is a huge overlap of withdrawn and pass. These two are big signs for staying on track can easily lead to success.
 
-![Average Score Distribution](./readme_files/fig3_mean_scores.png)
+Format: ![Average Score Distribution](./readme_files/fig3_mean_scores.png)
 
 Statistical tests show that the region, age or [indices of multiple deprivations](https://en.wikipedia.org/wiki/Multiple_deprivation_index) does not affect the final result and feature importances will confirm.
 
