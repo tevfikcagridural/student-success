@@ -4,8 +4,9 @@ This work is an analysis of the student's success in an online learning environm
 
 The data is Open University Learning Analytics Dataset. Kuzilek, J., Hlosta, M., & Zdrahal, Z. [https://doi.org/10.6084/m9.figshare.5081998.v1](https://doi.org/10.6084/m9.figshare.5081998.v1) (2017). It consists of seven courses for two semesters of 2013 and 2014. Raw data is a set of seven tables.
 
-[![Data Model](./readme_files/fig1_data_model.png "Data Model")](https://analyse.kmi.open.ac.uk/open_dataset)
-
+[![Data Model](./readme_files/fig1_data_model.png "Data Model")](https://analyse.kmi.open.ac.uk/open_dataset)  
+<sup>Data Model, Resource:[https://analyse.kmi.open.ac.uk/open_dataset](https://analyse.kmi.open.ac.uk/open_dataset)<sup>
+  
 The modelling response has four different subjects 'Distinction', 'Pass', 'Fail' and 'Withdrawn'. For that reason, the approach is a multi-class supervised classification. Since the distinction has much fewer members, it causes the data to be imbalanced and caused the problem to be more challenging for the model.
 
 ![Class Distribution](./readme_files/fig2_class_distribution.png)
