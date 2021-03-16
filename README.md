@@ -11,7 +11,7 @@ The modelling response has four different subjects 'Distinction', 'Pass', 'Fail'
 
 ![Class Distribution](./readme_files/fig2_class_distribution.png)
 
-On [exploratory data analysis](./jupyter_notebooks/2_Exploratory_Data_Analysis.ipynb), some students have the same mean scores, but end with different final results showed that the scores are not the only determiner for the final result. Besides, some students had one as their first score but ended up with distinction. Also, the mean score spread shows that there is a huge overlap of withdrawn and pass. These two are big signs for staying on track can easily lead to success.
+On [exploratory data analysis](./jupyter_notebooks/2_Exploratory_Data_Analysis.ipynb), some students having the same mean scores, but end with different final results showed that the scores are not the only determiner for the final result. Besides, some students had one as their first score but ended up with distinction. Also, the mean score spread shows that there is a huge overlap of withdrawn and pass. These two are big signs for staying on track can easily lead to success.
 
 ![Average Score Distribution](./readme_files/fig3_mean_scores.png)
 
@@ -19,11 +19,11 @@ Statistical tests show that the region, age or [indices of multiple deprivations
 
 Data has some unuseful features along with some missing information on useful features. While unuseful features dropped, missing information either imputed or the related rows dropped. Details are in the [feature engineering notebook](/jupyter_notebooks/3_Feature_Engineering.ipynb).
 
-Preprocessed data have 32546 rows and 25 columns. Although, some of these columns have either ordinal or nominal data. They are encoded accordingly, and the final table consists of 56 columns. Seven out-of-box models trained and tested.
+Preprocessed data have 32546 rows and 25 columns. Although, some of these columns have either ordinal or nominal data. They are encoded accordingly, and the final table consists of 56 columns. Six out-of-box models trained and tested.
 
 ![Model Scores](./readme_files/fig4_model_scores.png)
 
-Even though Random Forest overfits the training data it scored better on the test split. Additionally, Gradient Boost had the second-best results.
+Even though Random Forest overfits the training data it scored better than the others on the test split. And, Gradient Boost had the second-best results.
 
 
 Scores on the test split:
