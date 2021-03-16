@@ -51,4 +51,4 @@ https://latin.stackexchange.com/questions/12900/is-the-beginning-is-half-of-ever
 
 It also revealed that the least important features were age, disability and gender.
 
-In conclusion, seven out-of-box models having similar scores and even after the smart hyperparameter tuning does not end with significant difference shows that data needs more exploration and maybe develop more features.
+In conclusion, six out-of-box models having similar scores and even after the smart hyperparameter tuning does not end with significant difference shows that data needs more exploration and maybe develop more features.
